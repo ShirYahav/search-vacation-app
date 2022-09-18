@@ -1,0 +1,70 @@
+.UpdateVacation {
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Update {
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    height: 40px;
+    width: 300px;
+    position: relative;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #b1b1b1;
+    padding: 4px;
+    margin-top: 4px;
+}
+
+
+.UpdateButton {
+    height: 45px;
+    position: relative;
+    width: 45%;
+    border-radius: 6px;
+    border-color: transparent;
+    color: white;
+    background-color: var(--darkBlue);
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: larger;
+    margin-left: 12px;
+}
+
+.BackButton {
+    height: 45px;
+    position: relative;
+    width: 45%;
+    border-radius: 6px;
+    border-color: transparent;
+    color: white;
+    background-color: var(--darkBlue);
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: larger;
+    margin-right: 12px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+.ImageInput {
+    display: none;
+}
+
+.ImageLabel{ 
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}

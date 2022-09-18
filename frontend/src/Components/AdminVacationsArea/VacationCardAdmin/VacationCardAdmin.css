@@ -1,0 +1,52 @@
+.Trash {
+    margin-bottom: 3px;
+    padding: 2px;
+    background-color: var(--darkBlue);
+    color: white;
+    width: 89px;
+    height: 25px;
+    font-size: smaller;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.FollowersAdmin {
+    padding: 2px;
+    background-color: var(--darkBlue);
+    color: white;
+    width: 89px;
+    height: 25px;
+    font-size: smaller;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BottomCard {
+    display: flex;
+    margin: 7px;
+    margin-bottom: 5px;
+    margin-left: 155px;
+}
+
+.VacationsCardAdmin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 390px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    transition: 0.3s;
+    margin: 30px;
+    padding-bottom: 10px;
+}
+
+.VacationsCardAdmin:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}

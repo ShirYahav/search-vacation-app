@@ -1,0 +1,9 @@
+.Vacations {
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.OurVacations {
+    font-size: 45px;
+}

@@ -1,0 +1,127 @@
+.VacationsCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 390px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    transition: 0.3s;
+    margin: 30px;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.VacationsCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Container {
+    position: relative;
+    color: white;
+}
+
+.TextBox {
+    position: absolute;
+    bottom: -2px;
+    color: white;
+}
+
+.Destination {
+    text-align: left;
+    margin-left: 3px;
+    font-size: x-large;
+}
+
+.Description {
+    text-align: left;
+    margin-left: 3px;
+    font-weight: 700;
+    margin-top: -15px;
+}
+
+.VacationImage {
+    width: 350px;
+    height: 290px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+.Details {
+    margin: 3px;
+    font-weight: bold;
+}
+
+.Followers {
+    margin-left: 250px;
+    margin-bottom: 25px;
+    background-color: var(--darkBlue);
+    color: white;
+    width: 93px;
+    height: 25px;
+    font-size: smaller;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Toggle */
+.Switch {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    left: 5px;
+    top: -5px;
+}
+
+.Switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.Slider {
+    position: absolute;
+    cursor: pointer;
+    border-radius: 34px;
+    font-size:small;
+    text-align: left;
+    padding-top: 1px;
+    padding-left: 6px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.Slider:before {
+    position: absolute;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.Slider {
+    background-color: var(--darkBlue);
+}
+
+input:focus+.Slider {
+    box-shadow: 0 0 1px var(--darkBlue);
+}

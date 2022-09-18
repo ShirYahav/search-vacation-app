@@ -1,0 +1,25 @@
+
+.Edit {
+    position: absolute;
+    width: 58px;
+    height: 23px;
+    left: 5px;
+    top: 5px;
+    border-radius: 12px;
+    border: none;
+    background-color: #ccc;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.AddButton, .ReportButton {
+    width: 130px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--darkBlue);
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+}
